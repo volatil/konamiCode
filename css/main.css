@@ -1,0 +1,25 @@
+.aburrido { 
+	background-image: url('bg.gif')  ;
+	background-repeat: repeat ;
+	animation: mueveteMadaFaka 5s linear infinite ;
+	-moz-animation: mueveteMadaFaka 5s linear infinite ; 
+	-webkit-animation: mueveteMadaFaka 5s linear infinite ; 
+	-o-animation: mueveteMadaFaka 5s linear infinite ; 
+}
+
+@keyframes mueveteMadaFaka {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-webkit-keyframes mueveteMadaFaka {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-moz-keyframes mueveteMadaFaka {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-o-keyframes mueveteMadaFaka {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
